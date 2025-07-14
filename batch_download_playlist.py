@@ -3,11 +3,11 @@ import os
 import json
 
 # Nested folder to save files
-output_dir = "/Users/mac/Desktop/transcriptions/lenny/strategy"
+output_dir = "/Users/mac/Desktop/"
 os.makedirs(output_dir, exist_ok=True)
 
 # Playlist URL (add from Lenny's channel)
-playlist_url = "https://www.youtube.com/playlist?list=PL2fLjt2dG0N7RLzJ1k2p0Fh9C1QSCuF1_"  # Replace with playlist URL
+playlist_url = ""  # Replace with playlist URL
 
 # Get video URLs from playlist
 try:
